@@ -12,11 +12,42 @@ Run ⁠ npm install ⁠ to build the project. The build artifacts will be st
 
 Run ⁠ ng serve ⁠ for a dev server. Navigate to ⁠ http://localhost:4200/ ⁠. The application will automatically reload if you change any of the source files.
 
+## Responsive WEB UI
+
+1. Desktop Screen
+
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/e1710cb0-769c-44f0-bd6d-5f464291e698)
+
+2. Tab View
+
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/16ed442e-6909-4178-98c0-48427bdec554)
+
+3. Mobile View
+
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/437b6f76-9e77-4641-84b9-ab17c9db2ad4)
+
 ## Navigate to UserForm
 
 Navigate to ⁠ http://localhost:4200/UserForm ⁠.
 
-UserForm has child component UserTable
+UserForm has child component UserTable.
+
+User Interaction flow
+
+1. The below screenshot shows the UserForm Page with UserTable below it.
+
+Note that the validation errors are thrown as the form was touched.
+
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/bb91f08a-4d4c-436d-a62a-7e593d7bf62b)
+
+2. The below screenshot shows the user information fed through the User Form and the UserTable populated with the user information fed through the User Form.
+
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/3aa261cb-3fc6-4c43-9563-3af222cef546)
+
+3. The below screenshot shows the record of Name - David updated through the UserForm
+   
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/78db5c21-4105-4b2f-953f-41369d5b964b)
+
 
 ## Navigate to UserTable
 
