@@ -48,6 +48,9 @@ Note that the validation errors are thrown as the form was touched.
    
 ![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/78db5c21-4105-4b2f-953f-41369d5b964b)
 
+4. The below screenshot shows the record of Name - Jonh reflected in UserTable fed through the UserForm (profile pic and city changed)
+![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/b6ac19eb-9d9e-4a43-899e-ea2d4b45395c)
+
 
 ## Navigate to UserTable
 
