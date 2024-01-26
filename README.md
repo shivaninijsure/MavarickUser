@@ -44,7 +44,7 @@ Note that the validation errors are thrown as the form was touched.
 
 ![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/3aa261cb-3fc6-4c43-9563-3af222cef546)
 
-3. The below screenshot shows the record of Name - David updated through the UserForm
+3. The below screenshot shows the record of Name - Jonh updated through the UserForm
    
 ![image](https://github.com/shivaninijsure/MavarickUser/assets/145787119/78db5c21-4105-4b2f-953f-41369d5b964b)
 
