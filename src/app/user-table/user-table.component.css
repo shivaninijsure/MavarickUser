@@ -1,0 +1,75 @@
+.tableImg {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  vertical-align: baseline;
+  align-self: center;
+}
+
+th,
+td {
+  vertical-align: baseline;
+  align-self: center;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 760px),
+(max-width: 950px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+      display: block;
+  }
+
+  thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+  }
+
+  tr {
+      margin: 0 0 1rem 0;
+  }
+
+  tr:nth-child(odd) {
+      background: #ccc;
+  }
+
+  td {
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 10px;
+  }
+
+  td:before {
+      position: absolute;
+      top: 0;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+  }
+
+  td:last-child {
+      @media only screen and (min-width: 400px) and (max-width: 950px) {
+          text-align: start; 
+      }
+      text-align: end;
+  }
+
+  button {
+      --bs-btn-padding-y: .25rem;
+      --bs-btn-padding-x: .5rem;
+      --bs-btn-font-size: .75rem;
+  }
+}

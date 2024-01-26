@@ -1,0 +1,39 @@
+<!-- @for(post of posts; track post.id){
+    <h1>{{post.id}}</h1>} -->
+
+<div class="table-responsive m-4">
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Profile</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">City</th>
+                <th scope="col" class="actionContainer"></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @for(post of posts; track post.name){
+            <tr>
+                <td>
+                    <div class="tableImg">
+                        <img [src]="post.image" alt="." class="preview img-fluid imgContainer" />
+
+                        <!-- <img src="https://picsum.photos/200" class="img-fluid rounded-circle"> -->
+                        <!-- <img src=`post.image` class="img-fluid rounded-circle"> -->
+                    </div>
+                </td>
+                <td>{{post.name}}</td>
+                <td>{{post.email}}</td>
+                <td>{{post.phone}}</td>
+                <td>{{post.city}}</td>
+                <td>
+                    <button type="button" class="btn btn-success" (click)="updateUser(post)">Update</button>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
